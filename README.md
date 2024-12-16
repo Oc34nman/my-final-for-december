@@ -1,5 +1,3 @@
-# my-final-for-december
-
 #include<iostream>
 using namespace std;
 //function declaration
@@ -9,13 +7,13 @@ void GordonRamsey();
 void sigmawolf();
 void skibiditoilet();
 string items[5];
-int playerhealth = 10000;
+int playerhealth = 1000;
 string inventory[10];
 int money = 100;
 void elotero();
 void welmart_canada_editon();
 //globalvariables:can be seen and used by all functions in the program
-
+#include<Windows.h>
 
 int main() {
 	int score1[6];
@@ -45,7 +43,7 @@ int main() {
 			if (choice == "east")
 				room = 3;
 			else if (choice == "south")
-				room = 3;
+				room = 5;
 			else if (choice != "inventory")
 				cout << "I dont understand." << endl;
 			break;
@@ -587,6 +585,8 @@ void GordonRamsey() {
 			}
 			if (monsterhealth < 0)
 				cout << "---------------------------end of battle---------------------------" << endl;
+			cout << "you find a key to tomb of dawkins" << endl;
+			inventory[6] = "key";
 		}	if (playerhealth < 0)
 			cout << "you died mane" << endl;
 	}
@@ -719,7 +719,7 @@ void sigmawolf() {
 }
 
 void skibiditoilet() {
-	int monsterhealth = 32;
+	int monsterhealth = 72;
 	int input;
 	int num;
 	cout << endl << endl << "------------GO GET THERM------------" << endl;
@@ -837,7 +837,7 @@ void skibiditoilet() {
 
 			}
 			if (monsterhealth < 0)
-				cout << "---------------------------end of battle---------------------------" << endl;
+				cout << "---------------------------end of battle--------------------------- As you begin your wish you bretahe in... and out,I wish for Dr mo to grade this game with a A++++++++ thank you for playin the game and those who helped me" << endl;
 		}	if (playerhealth < 0)
 			cout << "you died mane" << endl;
 	}
